@@ -1,1 +1,1 @@
-ECHO is on.
+# Projekty realizowane w trakcie studiów
