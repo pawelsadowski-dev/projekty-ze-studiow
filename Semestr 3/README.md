@@ -1,1 +1,1 @@
-"# Semestr 3" 
+# Projekty realizowane w trakcie 3 Semestru
