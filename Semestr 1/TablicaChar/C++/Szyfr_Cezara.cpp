@@ -23,6 +23,8 @@ int main()
     cin.getline(tmp,10001);
     int dlugosc = strlen(tmp);
 
+
+
     if(x == 1)
     {
         for (int i = 0; i < dlugosc; i++)
