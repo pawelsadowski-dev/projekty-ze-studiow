@@ -1,4 +1,8 @@
-/*autor: Pawel Sadowski*/
+/*
+autor: Pawel Sadowski
+Program s³u¿¹cy do szyfrowania i deszyfrowania tzw szyfru cezara
+
+*/
 
 #include <iostream>
 #include <cstring>

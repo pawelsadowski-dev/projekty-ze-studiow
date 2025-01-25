@@ -1,4 +1,12 @@
-/*autor: Pawel Sadowski*/
+/*
+autor: Pawel Sadowski
+
+Program sprawdza czy wprowadzona przez u¿ytkownika dana jest:
+- wielk¹ liter¹
+- ma³¹ liter¹
+- cyfr¹
+- znakiem specjalnym
+*/
 
 #include <iostream>
 #include <cstring>
