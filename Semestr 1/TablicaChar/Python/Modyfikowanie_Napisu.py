@@ -24,12 +24,11 @@ while True:
 
     if operacja == "Z":
         try:
-            stary_znak = str(input("Podaj cyfre , która chcesz zamienić "))
+            stary_znak = str(input("Podaj znak, który chcesz zamienić: "))
             nowy_znak = str(input("Podaj nowy znak: "))
-            for i in range (dlug):
+            for i in range(len(s)):  # Użycie aktualnej długości ciągu znaków
                 if s[i] == stary_znak:
-                    s = s[:i] + nowy_znak + s[i+1:]
-
+                    s = s[:i] + nowy_znak + s[i + 1:]
         except ValueError:
             print("Podano nieprawidłową wartość.")
             
