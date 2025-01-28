@@ -26,9 +26,10 @@ while True:
         try:
             stary_znak = str(input("Podaj znak, który chcesz zamienić: "))
             nowy_znak = str(input("Podaj nowy znak: "))
-            for i in range(len(s)):  # Użycie aktualnej długości ciągu znaków
-                if s[i] == stary_znak:
-                    s = s[:i] + nowy_znak + s[i + 1:]
+            if stary_znak in s:
+                s = s.replace(stary_znak, nowy_znak)
+            else:
+                print("Znak do zamiany nie został znaleziony w napisie.")
         except ValueError:
             print("Podano nieprawidłową wartość.")
             
